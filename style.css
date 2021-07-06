@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  font-family: "Poppins", sans-serif;
   background-image: linear-gradient(to right, #fef9f5, #ffeaef);
 }
 
@@ -7,8 +8,12 @@ a {
   text-decoration: none;
 }
 
+img {
+  max-width: 100%;
+}
+
 #header {
-  margin: 25px 50px;
+  margin: 25px 50px 5px;
   display: flex;
   justify-content: space-between;
 }
@@ -24,8 +29,7 @@ a {
 }
 
 .navbar a {
-  font-family: "Marcellus", serif;
-  font-weight: 100px;
+  font-weight: 20px;
   color: #333045;
   margin: 0 10px;
   padding: 5px 10px;
@@ -42,7 +46,6 @@ a {
 }
 
 .book-a-table a {
-  font-family: "Marcellus", serif;
   font-weight: 15px;
   color: #fff;
   padding: 10px 20px;
@@ -55,3 +58,73 @@ a {
   background-image: linear-gradient(to right, #fdb078, #ff9e83);
   box-shadow: 10px 10px 50px 10px #fef9f5;
 }
+
+/* Header Ends Here, Top Section below */
+
+.container {
+  margin: 5px 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.half-width {
+  width: 50%;
+  padding-left: 2%;
+}
+
+#vegan {
+  display: inline-block;
+  margin-top: 10vw;
+  background-color: #fee5c0;
+  padding: 10px 20px;
+  border: 1px solid #ffeaef;
+  border-radius: 50px;
+  box-shadow: 10px 10px 50px 10px #ffeaef;
+}
+
+.half-width h1 {
+  color: #333045;
+  font-size: 4vw;
+  font-weight: 700;
+  margin: 30px 0;
+}
+
+#highlight {
+  color: #feb87c;
+}
+
+.half-width p {
+  color: #333045;
+  margin: 20px 0 40px;
+}
+
+#order-now {
+  font-weight: 15px;
+  color: #fff;
+  padding: 10px 20px;
+  background-image: linear-gradient(to right, #fdb078, #ff9e83);
+  border: 1px solid #ffeaef;
+  border-radius: 50px;
+  box-shadow: 10px 10px 40px #e0e2e4;
+}
+
+#order-now:hover {
+  background-image: linear-gradient(to right, #ff9e83, #fdb078);
+  box-shadow: 10px 10px 50px 10px #ffeaef;
+}
+
+#new-menu {
+  font-weight: 30px;
+  color: #333045;
+  margin: 0 20px;
+  padding: 5px;
+}
+
+#new-menu:hover {
+  color: #fa8072;
+  border-bottom: 2px solid;
+  border-image: linear-gradient(#ff9e83, #fdb078) 1;
+  box-shadow: 10px 10px 40px #ffeaef;
+}
+
+/* Top Section Ends Here, Menu section below */
